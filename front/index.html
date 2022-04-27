@@ -3,21 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RealTime WS Chat</title>
+    <title>Le UwU chat</title>
 
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="./favicon.svg" />
+    <link rel="stylesheet" href="darkmode.css">
   </head>
   <body>
     <div class="full-height">
-      <header><h1>Realtime WS Chat</h1></header>
+      <header><h1>Le UwU chat</h1></header>
       <main>
         <div class="top-space"></div>
       </main>
     </div>
     <form id="new-message">
       <div>
-        <label for="pseudo" >Pseudo</label>
+        <label for="pseudo">Pseudo</label>
         <input
           id="pseudo"
           name="pseudo"
@@ -27,17 +28,17 @@
         />
       </div>
       <div class="messages_border">
-        <label for="body">Body</label>
+        <label for="body">Message</label>
         <input
           id="body"
           name="body"
-          placeholder="What's up?"
+          placeholder="Ça dit quoi mec..."
           autocomplete="false"
           maxlength="144"
         />
       </div>
       <div>
-        <input type="submit" value="Submit" />
+        <input class="bouton" type="submit" value="Envoyer" />
       </div>
     </form>
     <script src="./scripts/main.js" type="module"></script>
